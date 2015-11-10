@@ -1,4 +1,4 @@
-ATTENTION:注意添加或修改头文件目录
+﻿ATTENTION:注意添加或修改头文件目录
 
 //
 //                       _oo0oo_
@@ -66,11 +66,11 @@ ATTENTION:注意添加或修改头文件目录
 /* Private Functions **********************************************************/
 
 /**
-  * @brief		brife
+  * @brief		
   * @param		None
   * @retval		None
   */
-void Function(void)
+void (void)
 {
 	//User Code
 }
