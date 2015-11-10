@@ -1,4 +1,4 @@
-del *.bak /s
+ï»¿del *.bak /s
 del *.ddk /s
 del *.edk /s
 del *.lst /s
@@ -7,7 +7,7 @@ del *.mpf /s
 del *.mpj /s
 del *.obj /s
 del *.omf /s
-::del *.opt /s  ::²»ÔÊĞíÉ¾³ıJLINKµÄÉèÖÃ
+::del *.opt /s  ::ä¸å…è®¸åˆ é™¤JLINKçš„è®¾ç½®
 del *.plg /s
 del *.rpt /s
 del *.tmp /s
