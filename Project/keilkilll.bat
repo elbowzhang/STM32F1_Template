@@ -20,6 +20,9 @@ del *.tra /s
 del *.dep /s           
 del JLinkLog.txt /s
 
+del *.uvoptx /s
+del *.uvguix.* /s
+del *.hex /s
 del *.iex /s
 del *.htm /s
 del *.sct /s
