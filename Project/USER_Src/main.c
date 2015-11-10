@@ -1,10 +1,10 @@
 /**
   ******************************************************************************
-  *	@file		Template/main.c
+  * @file		Template/main.c
   * @auther		elbow
-  *	@version	V1.0.0
+  * @version	V1.0.0
   * @date		2015/9/14
-  *	@brief		Main Program body Based On STM32F10x
+  * @brief		Main Program body Based On STM32F10x
   ******************************************************************************
   */
   
@@ -18,9 +18,9 @@
 /* Private Functions **********************************************************/
 
 /**
-  *	@brief		Main Program
+  * @brief		Main Program
   * @param		None
-  *	@retval		None
+  * @retval		None
   */
 int main(void)
 {
@@ -34,11 +34,11 @@ int main(void)
 }
 
 /**
-  *	@}
+  * @}
   */
 
 /**
-  *	@}
+  * @}
   */
 
 /**************************** (C) COPYRIGHT elbow ***********END OF FILE******/

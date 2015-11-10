@@ -1,10 +1,10 @@
 /**
   ******************************************************************************
-  *	@file		Template/USER_Src/delay.c
+  * @file		Template/USER_Src/delay.c
   * @auther		elbow
-  *	@version	V1.0.0
+  * @version	V1.0.0
   * @date		2015/9/16
-  *	@brief		Delay us/ms/.. based on STM32F10x
+  * @brief		Delay us/ms/.. based on STM32F10x
   ******************************************************************************
   */
   
@@ -18,9 +18,9 @@ static __IO u32 TimingDelay;
 /* Private Functions **********************************************************/
 
 /**
-  *	@brief		delay init
+  * @brief		delay init
   * @param		None
-  *	@retval		None
+  * @retval		None
   */
 void delay_init(void)
 {
@@ -36,9 +36,9 @@ void delay_init(void)
 }
 
 /**
-  *	@brief		delay nTime us
+  * @brief		delay nTime us
   * @param		u32 nTime
-  *	@retval		None
+  * @retval		None
   */
 void delay_us(__IO u32 nTime)
 {
@@ -47,9 +47,9 @@ void delay_us(__IO u32 nTime)
 }
 
 /**
-  *	@brief		delay nTime ms
+  * @brief		delay nTime ms
   * @param		u32 nTime
-  *	@retval		None
+  * @retval		None
   */
 void delay_ms(__IO u32 nTime)
 {
@@ -58,9 +58,9 @@ void delay_ms(__IO u32 nTime)
 }
 
 /**
-  *	@brief		SysTick Interrupt ISR
+  * @brief		SysTick Interrupt ISR
   * @param		None
-  *	@retval		None
+  * @retval		None
   */
 void TimingDelay_Decrement(void)
 {
@@ -71,11 +71,11 @@ void TimingDelay_Decrement(void)
 }
 
 /**
-  *	@}
+  * @}
   */
 
 /**
-  *	@}
+  * @}
   */
 
 /**************************** (C) COPYRIGHT elbow ***********END OF FILE******/
