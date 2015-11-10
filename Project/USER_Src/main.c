@@ -24,12 +24,11 @@
   */
 int main(void)
 {
-	/* 用户函数 */
 	delay_init();
 	
-	while(1)
+	while(1)		//LOOP
 	{
-		/* 循环函数 */
+
 	}
 }
 
