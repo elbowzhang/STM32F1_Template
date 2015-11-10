@@ -1,4 +1,4 @@
-/**
+Ôªø/**
   ******************************************************************************
   * @file		Template/USER_Src/delay.c
   * @auther		elbow
@@ -24,11 +24,11 @@ static __IO u32 TimingDelay;
   */
 void delay_init(void)
 {
-	// SystemFrequency / 1000     1ms÷–∂œ“ª¥Œ
-	// SystemFrequency / 100000	 10us÷–∂œ“ª¥Œ
-	// SystemFrequency / 1000000  1us÷–∂œ“ª¥Œ
-	/* ≈‰÷√µŒ¥º∆ ±∆˜÷–∂œ */
-	if (SysTick_Config(SystemCoreClock / 1000000))	// 1us÷–∂œ ST3.5.0ø‚∞Ê±æ
+	// SystemFrequency / 1000     1ms‰∏≠Êñ≠‰∏ÄÊ¨°
+	// SystemFrequency / 100000	 10us‰∏≠Êñ≠‰∏ÄÊ¨°
+	// SystemFrequency / 1000000  1us‰∏≠Êñ≠‰∏ÄÊ¨°
+	/* ÈÖçÁΩÆÊª¥Á≠îËÆ°Êó∂Âô®‰∏≠Êñ≠ */
+	if (SysTick_Config(SystemCoreClock / 1000000))	// 1us‰∏≠Êñ≠ ST3.5.0Â∫ìÁâàÊú¨
 	{ 
 		/* Capture error */
 		while (1);
